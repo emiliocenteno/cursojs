@@ -73,3 +73,17 @@ devuelveArray('hola que tal', ' ');
 
 /*
 4) Programa una función que repita un texto X veces, pe. miFuncion('Hola Mundo', 3) devolverá Hola Mundo Hola Mundo Hola Mundo.*/ 
+function repiteCaracter(texto, nVeces)
+{
+
+let cadena='';
+
+for (let index = 0; index < nVeces; index++) {
+    cadena =cadena +  texto;
+}
+console.log(`==================================EJERCICIO 4==================================`)
+
+console.log(`devuelveArray(${texto},${nVeces}) Resultado: ${cadena}`);
+}
+
+repiteCaracter('A',10);
