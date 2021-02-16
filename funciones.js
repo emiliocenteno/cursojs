@@ -23,7 +23,7 @@ cuentaCaracteres("Hola Mundo");
 2) Programa una función que te devuelva el texto recortado según el número de caracteres indicados, pe. miFuncion("Hola Mundo", 4) devolverá "Hola".
 */
 
-function recortado(cadena, corte ){
+function textoRecortado(cadena, corte ){
 
 let length =0;
   /// length = 0;
@@ -38,8 +38,8 @@ let length =0;
     subcadena= cadena.substring(0,length);
 }
 console.log(`==================================EJERCICIO 2==================================`)
-console.log(subcadena)
-
+//console.log(subcadena)
+console.log(`textoRecortado(${cadena},${corte}) Resultado: ${length}`);
 }
 
-recortado("hola a todos",4)
+textoRecortado("hola a todos",4)
